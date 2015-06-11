@@ -1,2 +1,1 @@
-web: java -cp webmodule/target/classes:webmodule/target/dependency/* Main
-
+web: java -cp target/classes:target/dependency/* Main
