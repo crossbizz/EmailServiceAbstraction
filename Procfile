@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.EmailServiceAbstraction.Main
+java -cp "target/dependency/*":target/classes com.EmailServiceAbstraction.Main
