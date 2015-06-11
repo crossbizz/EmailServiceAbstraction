@@ -54,14 +54,14 @@ method: POST
 
 input: 
 input format: json
-Key      | Detail
--------- | -------
-from     | string, sender email address
-to       | string, Recipient email address
-subject  | the subject of the email
-text     | Plain text content of the email
-html     | html email content of the email
 
+| Key     |                Description            |
+| --------|:-------------------------------------:|
+| from    | string, sender email address          |
+| to      | string, Recipient email address       |
+| subject | string,the subject of the email       |
+| text    | string,Plain text content of the email|
+| html    | string,html email content of the email|
 
 Following is a sample input json:
 ```
