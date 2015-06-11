@@ -11,7 +11,7 @@ public class Main {
 
     protected static org.glassfish.grizzly.http.server.HttpServer startServer(java.net.URI uri) throws IOException {
         System.out.println("Starting grizzly...");
-        ResourceConfig rc = new PackagesResourceConfig("com.EmailServiceAbstraction.resources","com.EmailServiceAbstraction.models");
+        ResourceConfig rc = new PackagesResourceConfig("com.EmailServiceAbstraction.resources");
         return GrizzlyServerFactory.createHttpServer(uri, rc);
     }
 
