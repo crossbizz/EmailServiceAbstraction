@@ -1,6 +1,3 @@
-//initParams.put("com.sun.jersey.config.property.packages","com.EmailServiceAbstraction.resources");
-//initParams.put("com.sun.jersey.config.property.packages","com.EmailServiceAbstraction.models");
-        
 package com.EmailServiceAbstraction;
 
 import java.io.IOException;
@@ -16,7 +13,7 @@ public class Main {
 
     protected static org.glassfish.grizzly.http.server.HttpServer startServer(java.net.URI uri) throws IOException {
         System.out.println("Starting grizzly...");
-        ResourceConfig rc = new PackagesResourceConfig("com.EmailServiceAbstraction.resources","com.EmailServiceAbstraction.resources");
+        ResourceConfig rc = new PackagesResourceConfig("com.EmailServiceAbstraction.resources","com.EmailServiceAbstraction.models");
         return GrizzlyServerFactory.createHttpServer(uri, rc);
     }
 
