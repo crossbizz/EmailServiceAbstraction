@@ -1,2 +1,2 @@
-web: java -cp webmodule/target/classes:webmodule/target/dependency/* com.EmailServiceAbstraction.*
+java -cp target/classes:"target/dependency/* com.EmailServiceAbstraction.Main
 
