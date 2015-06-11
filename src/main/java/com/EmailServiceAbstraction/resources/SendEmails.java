@@ -19,8 +19,8 @@ import javax.ws.rs.Produces;
  */
 @Path(value="SendEmails")
 public class SendEmails {
-    private static final String MAILGUNKEY = "";
-    private static final String MANDRILLKEY = "";
+    private static final String MAILGUNKEY = "key-ffbad42ea177132a48a1d8649b07163e";
+    private static final String MANDRILLKEY = "a2LzuDriNO-KVRBOFOoP_Q";
     private static final String MAILGUN_BASE_URL = "https://api.mailgun.net/v3/sandbox9d72d9d932184a11aca30db433cd7aca.mailgun.org/messages";
     private static final String MANDRILL_BASE_URL = "https://mandrillapp.com/api/1.0/";
     private static final String SEND = "messages/send.json";
