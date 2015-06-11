@@ -11,8 +11,7 @@ public class Main {
         final String baseUri = "http://localhost:"+(System.getenv("PORT")!=null?System.getenv("PORT"):"9998")+"/";
         final Map<String, String> initParams = new HashMap<String, String>();
 
-        initParams.put("com.sun.jersey.config.property.packages","package com.EmailServiceAbstraction.resources;");
-        initParams.put("com.sun.jersey.config.property.packages","package com.EmailServiceAbstraction.models;");
+        initParams.put("com.sun.jersey.config.property.packages","com.EmailServiceAbstraction.resources;");
         
         System.out.println("Starting grizzly...");
         SelectorThread threadSelector = GrizzlyWebContainerFactory.create(baseUri, initParams);
