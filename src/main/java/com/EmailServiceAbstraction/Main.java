@@ -1,5 +1,3 @@
-package com.EmailServiceAbstraction;
-
 import java.io.IOException;
 import javax.ws.rs.core.UriBuilder;
 import com.sun.jersey.api.core.PackagesResourceConfig;
