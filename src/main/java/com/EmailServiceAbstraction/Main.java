@@ -35,8 +35,9 @@ public class Main {
             HttpServer httpServer = GetServer(uri);
             httpServer.start();
             System.out.println(String.format("Jersey started with WADL available at %sapplication.wadl.",baseUri, baseUri));
-            System.in.read();
-            httpServer.stop();
+            while(true) {
+                System.in.read();
+            }
         }
         catch(Throwable t) {
 			t.printStackTrace();
