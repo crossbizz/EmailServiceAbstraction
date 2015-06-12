@@ -7,8 +7,6 @@ import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.filter.ClientFilter;
 import com.sun.jersey.api.client.filter.HTTPBasicAuthFilter;
 import com.sun.jersey.core.util.MultivaluedMapImpl;
-import com.sun.jersey.api.core.PackagesResourceConfig;
-import com.sun.jersey.api.core.ResourceConfig;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -40,7 +38,7 @@ public class SendEmails {
 	@Path(value = "Email")
 	public String Sendemails(EmailData emailData) {
 		ClientResponse clientResponse;
-		String EMAILSENT = "{'status': 1, 'message':'success'}";
+		String EMAILSENT = "{'status': 0, 'message':'success'}";
 		try {
 			clientResponse = this.SendViaMailGun(emailData);
 			if (clientResponse.getClientResponseStatus() != ClientResponse.Status.OK) {
