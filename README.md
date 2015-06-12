@@ -1,5 +1,4 @@
 # EmailServiceAbstraction
-Note: This is the first time I coded a service in Java, My intention was not only finish this challenge but also learn from it. Hence, I decided to use Java even though it's not my strongest language i.e. C#
 ============
 
 Manish Maheshwari, manish.neu@gmail.com, 06/11/2015
@@ -7,7 +6,7 @@ Manish Maheshwari, manish.neu@gmail.com, 06/11/2015
 
 A service that accepts the necessary information and sends emails. It should provide an abstraction between two different email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
 
-
+Note: This is the first time I coded a service in Java, My intention was not only finish this challenge but also learn from it. Hence, I decided to use Java even though it's not my strongest language i.e. C#
 
 ##Technical track
 Back-end
