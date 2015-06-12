@@ -49,7 +49,7 @@ The service has a RESTful API.
 
 ###Main API 
 URL: 
-/EmailServiceAbstraction/webapi/SendEmails/Email
+https://emailabstraction.herokuapp.com/SendEmails/Email
 method: POST
 
 input: 
@@ -89,5 +89,5 @@ Following is a sample output json for a successful transaction:
 -Tested E2E, but a better way of testing needs to be done that can mock out the actual call to the email service providers
 
 ##Deployed on Heroku
-
+https://emailabstraction.herokuapp.com/SendEmails/Email
 
