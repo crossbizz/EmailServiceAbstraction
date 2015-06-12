@@ -1,5 +1,5 @@
 # EmailServiceAbstraction
-Email Service
+Note: This is the first time I coded a service in Java, My intention was not only finish this challenge but also learn from it. Hence, I decided to use Java even though it's not my strongest language i.e. C#
 ============
 
 Manish Maheshwari, manish.neu@gmail.com, 06/11/2015
